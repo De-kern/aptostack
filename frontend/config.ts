@@ -1,6 +1,18 @@
-import Placeholder1 from "@/assets/placeholders/bear-1.png";
-import Placeholder2 from "@/assets/placeholders/bear-2.png";
-import Placeholder3 from "@/assets/placeholders/bear-3.png";
+import Placeholder1 from "@/assets/placeholders/Aptosteck_de_01.jpg";
+import Placeholder2 from "@/assets/placeholders/Aptosteck_de_02.jpg";
+import Placeholder3 from "@/assets/placeholders/Aptosteck_de_03.jpg";
+import Placeholder4 from "@/assets/placeholders/Aptosteck_de_04.jpg";
+import Placeholder5 from "@/assets/placeholders/Aptosteck_de_05.jpg";
+import Placeholder6 from "@/assets/placeholders/Aptosteck_de_06.jpg";
+import Placeholder7 from "@/assets/placeholders/Aptosteck_de_07.jpg";
+import Placeholder8 from "@/assets/placeholders/Aptosteck_de_08.jpg";
+import Placeholder9 from "@/assets/placeholders/Aptosteck_de_09.jpg";
+import Placeholder10 from "@/assets/placeholders/Aptosteck_de_10.jpg";
+import Placeholder11 from "@/assets/placeholders/Aptosteck_de_11.jpg";
+import Placeholder12 from "@/assets/placeholders/Aptosteck_de_12.jpg";
+import Placeholder13 from "@/assets/placeholders/Aptosteck_de_13.jpg";
+
+
 import { COLLECTION_ADDRESS } from "./constants";
 
 export const config: Config = {
@@ -14,25 +26,25 @@ export const config: Config = {
   },
 
   defaultCollection: {
-    name: "Lorem Ipsum",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris congue convallis augue in pharetra.",
+    name: "Aptostacke",
+    description: "#PACT #AIRDROP",
     image: Placeholder1,
   },
 
   ourStory: {
-    title: "Our Story",
+    title: "Aptostack",
     subTitle: "Proin lorem",
     description:
-      "Phasellus pellentesque malesuada pretium. Vestibulum sed justo at velit rhoncus finibus nec quis urna. Aenean rutrum congue tincidunt. Praesent id urna quis risus sodales feugiat vitae quis orci. Proin tincidunt eu nisi quis sollicitudin. Nulla facilisis eget tellus quis fermentum. Nunc vel neque at erat dictum tempus. Aliquam in mollis lacus, non fringilla lacus. Nunc blandit iaculis ante vitae pulvinar.",
+      "A group of diverse individuals, each representing a different emotion, gathered around a large PACT contract, their expressions ranging from fear to excitement as they prepare to sign. #PACT #AIRDROP",
     discordLink: "https://discord.com",
-    images: [Placeholder1, Placeholder2, Placeholder3],
+    images: [Placeholder1, Placeholder2, Placeholder3, Placeholder4, Placeholder5, Placeholder6, Placeholder7, Placeholder8, Placeholder9, Placeholder10, Placeholder11, Placeholder12, Placeholder13],
   },
 
   ourTeam: {
-    title: "Our Team",
+    title: "Aptostack",
     members: [
       {
-        name: "Mepoti",
+        name: "#Aptostack_01",
         role: "Aliquip Esse",
         img: Placeholder1,
         socials: {
@@ -40,14 +52,105 @@ export const config: Config = {
         },
       },
       {
-        name: "Zucker",
-        role: "Sunt Duis",
-        img: Placeholder2,
+        name: "#Aptostack_01",
+        role: "Aliquip Esse",
+        img: Placeholder1,
+        socials: {
+          twitter: "https://twitter.com",
+        },
       },
-      {
-        name: "SimonT",
-        role: "Ullamco Tempor",
+       {
+        name: "#Aptostack_02",
+        role: "Aliquip Esse",
+        img: Placeholder2,
+        socials: {
+          twitter: "https://twitter.com",
+        },
+      },
+       {
+        name: "#Aptostack_03",
+        role: "Aliquip Esse",
         img: Placeholder3,
+        socials: {
+          twitter: "https://twitter.com",
+        },
+      },
+       {
+        name: "#Aptostack_04",
+        role: "Aliquip Esse",
+        img: Placeholder4,
+        socials: {
+          twitter: "https://twitter.com",
+        },
+      },
+       {
+        name: "#Aptostack_05",
+        role: "Aliquip Esse",
+        img: Placeholder5,
+        socials: {
+          twitter: "https://twitter.com",
+        },
+      },
+       {
+        name: "#Aptostack_06",
+        role: "Aliquip Esse",
+        img: Placeholder6,
+        socials: {
+          twitter: "https://twitter.com",
+        },
+      },
+       {
+        name: "#Aptostack_07",
+        role: "Aliquip Esse",
+        img: Placeholder7,
+        socials: {
+          twitter: "https://twitter.com",
+        },
+      },
+       {
+        name: "#Aptostack_08",
+        role: "Aliquip Esse",
+        img: Placeholder8,
+        socials: {
+          twitter: "https://twitter.com",
+        },
+      },
+       {
+        name: "#Aptostack_09",
+        role: "Aliquip Esse",
+        img: Placeholder9,
+        socials: {
+          twitter: "https://twitter.com",
+        },
+      },
+       {
+        name: "#Aptostack_10",
+        role: "Aliquip Esse",
+        img: Placeholder10,
+        socials: {
+          twitter: "https://twitter.com",
+        },
+      },
+       {
+        name: "#Aptostack_11",
+        role: "Aliquip Esse",
+        img: Placeholder11,
+        socials: {
+          twitter: "https://twitter.com",
+        },
+      },
+       {
+        name: "#Aptostack_12",
+        role: "Aliquip Esse",
+        img: Placeholder12,
+        socials: {
+          twitter: "https://twitter.com",
+        },
+      },
+        {
+        name: "#Aptostack_13",
+        role: "Aliquip Esse",
+        img: Placeholder13,
         socials: {
           twitter: "https://twitter.com",
         },
@@ -60,24 +163,15 @@ export const config: Config = {
 
     questions: [
       {
-        title: "Id Quis Mollit Est",
+        title: "Aprostack",
         description:
-          "Exercitation tempor id ex aute duis laboris dolore est elit fugiat consequat exercitation ullamco. Labore sint laborum anim sunt labore commodo proident adipisicing minim eu duis velit. Est ipsum nisi labore ullamco velit laborum qui in. Fugiat cillum tempor proident occaecat do ipsum Lorem eu labore duis do ex anim. Ullamco incididunt irure officia ex reprehenderit. Voluptate tempor reprehenderit elit exercitation consequat labore ipsum duis reprehenderit. Ex qui aliqua ex aute sunt.",
+          "A group of diverse individuals, each representing a different emotion, gathered around a large PACT contract, their expressions ranging from fear to excitement as they prepare to sign. #PACT #AIRDROP",
       },
-      {
-        title: "Magna Nostrud Eu Nostrud Occaecat",
-        description:
-          "Et aute duis culpa anim sint pariatur ipsum et irure aliquip eu velit. Aliquip Lorem nostrud adipisicing deserunt sit ut aliqua enim amet velit fugiat cillum quis ut. Tempor consequat adipisicing laborum ut ipsum ut elit ad amet qui Lorem ea commodo culpa. Commodo adipisicing sit sint aute deserunt. Proident enim proident labore. Aliquip minim aliqua proident mollit fugiat ipsum qui duis deserunt ea duis. Deserunt anim incididunt irure commodo sint adipisicing magna dolor excepteur.",
-      },
-      {
-        title: "In Amet Mollit Tempor Dolor Consequat Commodo",
-        description:
-          "Fugiat fugiat dolor id aute labore esse incididunt. Reprehenderit nostrud ad elit enim occaecat. Sunt non ex veniam officia dolore deserunt consequat. Excepteur voluptate cillum fugiat reprehenderit consequat eu eu amet dolor enim tempor.",
-      },
+    
     ],
   },
 
-  nftBanner: [Placeholder1, Placeholder2, Placeholder3],
+  nftBanner: [Placeholder1, Placeholder2, Placeholder3, Placeholder4, Placeholder5, Placeholder6, Placeholder7, Placeholder8, Placeholder9, Placeholder10, Placeholder11, Placeholder12, Placeholder13],
 };
 
 export interface Config {
